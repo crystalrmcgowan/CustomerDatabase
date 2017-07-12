@@ -26,8 +26,10 @@ div h3 {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  text-decoration: underline green;
-  padding: 0px;
+}
+
+h3 span {
+  border-bottom: 2px solid green;
 }
 
 section {
