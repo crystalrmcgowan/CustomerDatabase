@@ -3,58 +3,48 @@ body {
   width: 70%;
   font-family: sans-serif;
   margin-left: 15%;
-
   display: flex;
   justify-content: center;
 }
-
 h1 {
   display: flex;
   justify-content: center;
   font-size: 1.5em;
 }
-
 div p {
   text-transform: capitalize;
   display: flex;
   justify-content: center;
-
   margin: 0.2em;
 }
-
 div h3 {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
 }
-
 h3 span {
   border-bottom: 2px solid green;
 }
-
 section {
   display: flex;
   flex-wrap: wrap;
 }
-
 section div {
   display: flex;
   flex-direction: column;
   align-content: center;
 }
-
 div img {
+  width: 10em;
 }
-
 #wrapper {
   width: 100%;
 }
-
 #directory {
   display: flex;
   justify-content: space-around;
 }
-
 #directory div {
   display: flex;
+  align-items: center;
 }
